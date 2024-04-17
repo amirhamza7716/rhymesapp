@@ -1,0 +1,210 @@
+.SearchPage{
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.SearchPage-wrapper{
+    height: 100%;
+    width: 100%;
+    max-width: 85%;
+    margin: auto;
+}
+  
+.SearchPage-wrapper-word {
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-family: 'Raleway-Bold', sans-serif;
+    color: #000;
+    font-size: 70px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 100px;
+    width: 100%;
+    word-wrap: break-word;
+    hyphens: auto;
+
+    margin: 0px 0px 10px;
+}
+
+.bor-result-content {
+    display: inline-flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.bor-syllable-content {
+    padding: 0 10px 20px 10px
+}
+
+.serchcard-title {
+    color: black;
+    padding: 15px;
+    border-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #ff4d00;
+    background-color: #e6e6e6;
+    font-family: 'Raleway-SemiBold', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0px 0px 10px 0px;
+}
+
+.serchcard-title-span {
+    /* margin-top: 10px; */
+    font-family: 'Source Sans Pro Light', Arial, sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    /* padding-bottom: 2px; */
+    line-height: 23px;
+    border-bottom: 2px solid #ffffff;
+    /* padding: 1px; */
+    /* border: 1px solid #ccc; */
+}
+
+.serchcard-title-span:hover {
+    color: #ff4d00;
+    transition: .1s ease;
+    cursor: pointer;
+    border-bottom: 2px solid #ff4d00;
+}
+
+.serchcard-title-p {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    /* or grid */
+    flex-wrap: wrap;
+    /* or grid-auto-flow: column; */
+    /* gap: 1px;  */
+}
+
+.search-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SearchPage-wrapper-count {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.SearchPage-wrapper-count-num {
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ff4d00;
+    font-size: 18px;
+    font-style: italic;
+    text-transform: capitalize;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.SearchPage-wrapper-count-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ff4d00;
+    font-size: 18px;
+    font-style: italic;
+    text-transform: capitalize;
+    line-height: 20px;
+    margin-left: 3px;
+}
+
+.SearchPage-wrapper-count-param {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ff4d00;
+    font-size: 18px;
+    font-style: italic;
+    text-transform: capitalize;
+    line-height: 20px;
+    margin-left: 3px;
+}
+
+
+.FindData_notDisplay{
+    width: 100%;
+display: flex;
+flex-direction: row;
+}
+.FindData_notDisplay-text{
+    flex:1;
+    text-align: left;
+    color: #636c72;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+.FindData_notDisplay-btndiv{
+    flex:1;
+    display: flex;
+    justify-content: end;
+}
+.FindData_notDisplay-btn{
+    border-radius: 5%;
+    color: white;
+    float: right;
+    cursor: pointer;
+    background-color: #ff4d00;
+    position: relative;
+    border: none;
+
+    display: block;
+    width: 30%;
+    height: 55px;
+    margin-left: -1px;
+    padding: 2px 20px;
+
+    transition: background-color 300ms ease;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: inherit;
+}
+.FindData_notDisplay-btn:hover{
+    background-color: #ff4d00;
+    cursor: pointer;
+}
+.submited_word_sucess{
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    line-height: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+@media screen and (max-width:760px) {
+    .SearchPage-wrapper-word {
+        font-size: 40px;
+        padding-top: 20px;
+        line-height: 50px;
+    }
+    .SearchPage-wrapper-count{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:560px) {
+    .SearchPage-wrapper-word {
+        text-align: center;
+    }
+    .SearchPage-wrapper-count{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,80 @@
+.app__testimonial {
+    width: 100%;
+    /* height: 50vh; */
+    background-color: #6d6a6a;
+    border-top: 3px solid #000000;
+    position: relative;
+    padding: 3% 5% 3% 5%;
+    display: flex;
+    align-items: center;
+}
+
+.app__testimonial-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.app__testimonial-wrapper-title-main {
+    display: block;
+    width: 100%;
+    padding: 0 0 25px 0;
+    font-family: Raleway-Bold, sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.app__testimonial-wrapper-title {
+    width: 100%;
+
+    display: block;
+    width: 100%;
+    padding: 0 0 15px 0;
+    letter-spacing: 2px;
+    /* text-transform: uppercase; */
+    /* margin-bottom: 20px; */
+
+}
+
+.app__testimonial-wrapper-title {
+
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: inherit;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.app__testimonial-wrapper-title-h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__testimonial-wrapper-title-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.str {
+    color: gold;
+    width: 15px;
+    height: 15px;
+}
+
+.testimonial-wrapper-card-text {
+    font-weight: bold;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+    word-wrap: break-word;
+    box-sizing: inherit;
+}

@@ -1,0 +1,135 @@
+.app_shop {
+    width: 100%;
+    height: 50vh;
+    background-color: #efefef;
+    padding: 5% 10% 10% 10%;
+
+}
+
+.app_shop-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.app_shop-title {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #383838;
+
+    font-weight: 900;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+
+    margin: 5px 0px 40px 0px;
+    line-height: 30px;
+    text-shadow: none;
+    font-family: inherit;
+    text-align: center;
+    word-wrap: break-word;
+    box-sizing: inherit;
+    vertical-align: baseline;
+}
+
+.app_shop-cardsec {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.flip-card {
+    background-color: transparent;
+    width: 375px;
+    height: 261px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+    margin: 10px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-width: 0px 0px 3px;
+    border-radius: 0px;
+    border-color: rgb(10, 10, 10);
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    transform: rotateY(180deg);
+    border-width: 0px 0px 3px;
+    border-radius: 0px;
+    border-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flip-card-back-btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin: 5px 0px;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width:560px) {
+    .app_shop{
+        height: 100%;
+    }
+    .app_shop-title {
+        height: 80px;
+        margin: 5px 0px 20px 0px; 
+    }
+    .app_shop-cardsec {
+        flex-direction: column;
+    }
+    .flip-card{
+        width: 100%;
+    }
+}

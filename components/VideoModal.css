@@ -1,0 +1,59 @@
+/* styles.css or your Tailwind CSS file */
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    /* padding: 10px; */
+    border-radius: 0.5rem;
+    width: 960px;
+    height: 540px;
+    z-index: 9999999999999999999;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999999999999999999;
+  }
+  .VIDEO-MODAL{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: #fff;
+    /* padding: 10px; */
+    z-index: 9999999999999999999;
+  }
+  .VIDEO-MODAL-CorseBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .VIDEO-MODAL-CorseBtn-img{
+    width: 100%;
+    height: 100%;
+  }
+  .video-container {
+    width: 100%;
+    height: 100;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 10;
+    left: 0;
+    right: 10;
+    width: 100%;
+    height: 100%;
+  }
+  

@@ -1,0 +1,90 @@
+.app_infor{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;    
+}
+.app_infor-card{
+    flex: 1;
+    height: 100%;
+    /* padding: 10px; */
+    padding: 140px 80px 65px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.app_infor-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app_infor-card-tag{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px
+
+}
+.app_infor-card-tag-icon{
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+}
+.app_infor-card-title{
+    
+    width: 100%;
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.app_infor-card-disc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: inherit;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    color: #fff;
+    line-height: 20px;
+    box-sizing: inherit;
+    text-align: center;
+   
+    /* border: 0;
+    outline: 0; */
+    vertical-align: baseline;
+    background: transparent;
+    /* margin: 0;
+    padding: 0; */
+}
+.app_infor-card-first{
+    background-color: #f0912f;
+}
+.app_infor-card-2nd{
+    background-color: #282828;
+}
+.app_infor-card-3rd{
+    background-color: #f07621;
+}
+
+
+@media screen and (max-width:1160px) {
+    .app_infor-card{
+        padding: 140px 40px 65px;
+    }
+}
+@media screen and (max-width:860px) {
+    .app_infor-card{
+        padding: 140px 25px 65px;
+    }
+}
+@media screen and (max-width:760px) {
+    .app_infor{
+        flex-direction: column;
+        height: 100%;
+    }
+}

@@ -1,0 +1,440 @@
+.App_Booksec {
+    width: 100%;
+    height: 94vh;
+    min-height: 600px;
+    position: relative;
+}
+
+.App_Booksec-backgroundimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* object-fit: cover; */
+    /* overflow: hidden; */
+    /* background-image: url('/images/img/book_rhymes_coverB-1-1280x700.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.App_Booksec-secdot {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.Booksec-secdot-bot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Booksec-secdot-bot-inner {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.Booksec-wordSec {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    /* padding-bottom: 10%; */
+}
+
+.Booksec-wordSec-wrapper {
+    width: 90%;
+    margin-top: 32%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Booksec-wordSec-title {
+    z-index: 5;
+    width: 90%;
+    height: fit-content;
+    text-align: center;
+    font-size: 99px;
+    white-space: normal;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family: Raleway-ExtraBold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /* height: 100px; */
+    /* padding-top: 20px; */
+    /* text-align: center; */
+
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    line-height: 20px;
+    border-width: 0px;
+    min-height: 0px;
+    max-height: none;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
+}
+
+.Booksec-wordSec-subtitle {
+    z-index: 7;
+    width: 90%;
+    /* padding-top: 1px; */
+    height: fit-content;
+    text-align: center;
+    font-size: 99px;
+    white-space: normal;
+    /* font-weight:100; */
+    color: rgb(10, 10, 10);
+    font-family: Raleway-ThinLight;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    /* text-align: center; */
+    /* white-space: normal; */
+    /* font-size: 100px; */
+    /* line-height: 0px; */
+    font-weight: 100;
+    /* color: rgb(10, 10, 10); */
+    /* font-family: Raleway; */
+    letter-spacing: 0px;
+}
+
+.Booksec-wordSec-disc {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    z-index: 8;
+    margin-top: -20px;
+    /* align-items: center; */
+}
+
+.Booksec-wordSec-disc-text {
+    width: 50%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: none 0s ease 0s;
+    line-height: 32px;
+    border-width: 0px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.App_Booksec-divbutton {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.App_Booksec-divbutton-adj {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.App_Booksec-button {
+    z-index: 8;
+    white-space: nowrap;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans Pro";
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 12px 35px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    cursor: pointer;
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    font-style: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    border-width: 0px;
+    border-style: none;
+    margin: 0px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
+}
+
+.App_Booksec-button:hover {
+
+    color: rgba(0, 0, 0, 0.75);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    transition: none 0s ease 0s;
+    text-decoration: none solid rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+
+}
+
+.App_Booksec-button-arrow {
+  display: none;
+  width: 15px;
+  height: 15px;
+  color: rgba(0, 0, 0, 0.75);
+  background-color: transparent;
+  opacity: 1 !important;
+  margin-left: 10px !important;
+  cursor: pointer;
+}
+
+.group:hover .App_Booksec-button-arrow {
+    transition: opacity 0.3s ease; /* Smooth transition effect */
+  }
+.App_Booksec-button:hover + .App_Booksec-button-arrow {
+  display: block;
+}
+@media screen and (min-width:3000px) {
+    .Booksec-wordSec-wrapper {
+        margin-top: 22%;
+    }
+    .Booksec-wordSec-title{
+        font-size: 140px;
+    }
+    .Booksec-wordSec-subtitle{
+        font-size: 140px;
+    }
+    .Booksec-wordSec-disc-text{
+        font-size: 36px;
+    }
+}
+@media screen and (max-width:2600px) {
+    .Booksec-wordSec-wrapper {
+        margin-top: 24%;
+    }
+    .Booksec-wordSec-title{
+        font-size: 120px;
+    }
+    .Booksec-wordSec-subtitle{
+        font-size: 120px;
+    }
+    .Booksec-wordSec-disc-text{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:2000px) {
+    .Booksec-wordSec-wrapper {
+        margin-top: 28%;
+    }
+    .Booksec-wordSec-title{
+        font-size: 99px;
+    }
+    .Booksec-wordSec-subtitle{
+        font-size: 99px;
+    }
+    .Booksec-wordSec-disc-text{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:1800px) {
+    .Booksec-wordSec-wrapper {
+        margin-top: 32%;
+        margin-right: 2%;
+    }
+    .Booksec-wordSec-title{
+        font-size: 90px;
+    }
+    .Booksec-wordSec-subtitle{
+        font-size: 90px;
+    }
+    .Booksec-wordSec-disc-text{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width:1600px) {
+    .Booksec-wordSec-wrapper {
+        margin-top: 36%;
+        margin-right: 2%;
+    }
+    .Booksec-wordSec-title{
+        font-size: 80px;
+    }
+    .Booksec-wordSec-subtitle{
+        font-size: 80px;
+    }
+    .Booksec-wordSec-disc-text{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:1400px) {
+    .Booksec-wordSec-wrapper {
+        margin-top: 40%;
+    }
+    .Booksec-wordSec-title{
+        font-size: 70px;
+    }
+    .Booksec-wordSec-subtitle{
+        font-size: 70px;
+    }
+    .Booksec-wordSec-disc-text{
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .Booksec-wordSec-wrapper {
+        /* margin-top: 32%; */
+        margin-right: 2%;
+    }
+    .Booksec-wordSec-title{
+        font-size: 60px;
+    }
+    .Booksec-wordSec-subtitle{
+        font-size: 60px;
+    }
+    .Booksec-wordSec-disc-text{
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .Booksec-wordSec-wrapper {
+        /* margin-top: 32%; */
+        margin-right: 2%;
+    }
+    .Booksec-wordSec-title{
+        font-size: 50px;
+    }
+    .Booksec-wordSec-subtitle{
+        font-size: 50px;
+    }
+    .Booksec-wordSec-disc-text{
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width:800px) {
+    .Booksec-wordSec-wrapper {
+        /* margin-top: 32%; */
+        margin-right: 2%;
+        width: 100%;
+    }
+    .Booksec-wordSec-title{
+        font-size: 40px;
+    }
+    .Booksec-wordSec-subtitle{
+        font-size: 40px;
+    }
+    .Booksec-wordSec-disc-text{
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+@media screen and (max-width:600px) {
+    .App_Booksec {
+        height: 100%;
+        min-height: 400px;
+    }
+    .Booksec-wordSec-wrapper {
+        /* margin-top: 32%; */
+        margin-right: 2%;
+    }
+    .Booksec-wordSec-title{
+        font-size: 30px;
+    }
+    .Booksec-wordSec-subtitle{
+        font-size: 30px;
+    }
+    .Booksec-wordSec-disc{
+        width: 100%;
+    }
+    .Booksec-wordSec-disc-text{
+        font-size: 12px;
+        line-height: 16px;
+        width: 60%;
+    }
+    .App_Booksec-divbutton-adj{
+        width: 50%;
+    }
+}
+@media screen and (max-width:500px) {
+    .Booksec-wordSec-wrapper {
+        /* margin-top: 32%; */
+        margin-right: 2%;
+    }
+    .Booksec-wordSec-title{
+        font-size: 25px;
+    }
+    .Booksec-wordSec-subtitle{
+        font-size: 25px;
+    }
+    .Booksec-wordSec-disc-text{
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .App_Booksec-divbutton-adj{
+        width: 60%;
+    }
+}
+@media screen and (max-width:400px) {
+    .Booksec-wordSec-wrapper {
+        /* margin-top: 32%; */
+        margin-right: 2%;
+    }
+    .Booksec-wordSec-title{
+        font-size: 20px;
+    }
+    .Booksec-wordSec-subtitle{
+        font-size: 20px;
+    }
+    .Booksec-wordSec-disc-text{
+        font-size: 11px;
+        line-height: 12px;
+    }
+    .App_Booksec-divbutton-adj{
+        width: 70%;
+    }
+}
+@media screen and (max-width:300px) {
+    .Booksec-wordSec-wrapper {
+        /* margin-top: 32%; */
+        margin-right: 2%;
+    }
+    .Booksec-wordSec-title{
+        font-size: 18px;
+    }
+    .Booksec-wordSec-subtitle{
+        font-size: 18px;
+    }
+    .Booksec-wordSec-disc-text{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .App_Booksec-divbutton-adj{
+        width: 80%;
+    }
+}
