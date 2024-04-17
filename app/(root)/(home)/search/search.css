@@ -190,6 +190,30 @@ flex-direction: row;
     padding-top: 20px;
 }
 
+
+
+@media screen and (max-width:1260px) {
+    .FindData_notDisplay-btn{
+        justify-content: end;
+        width: 180px !important;
+        height: 55px !important;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .FindData_notDisplay{
+    flex-direction: column;
+    }
+    .FindData_notDisplay-text{
+        flex:1;
+    }
+    .FindData_notDisplay-btndiv{
+        flex:1;
+        justify-content: start;
+        margin-top: 20px;
+    }
+}
+
 @media screen and (max-width:760px) {
     .SearchPage-wrapper-word {
         font-size: 40px;
