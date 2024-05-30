@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import './home.css';
 import Testimonial from '@/components/Testimonial';
 import Footer from '@/components/Footer';
@@ -9,9 +9,11 @@ import Profile from '@/components/Profile';
 import BuyShopSec from '@/components/BuyShopSec';
 import VideoModal from '@/components/VideoModal';
 
+
 function Layout({ children }) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [VideoId, setVideoId] = useState(null)
+  
   return (
     <div className='Home'>
       <div className='Home-line'></div>

@@ -7,14 +7,13 @@ import BookWatchBtn from '@/components/ClientRenderdComponent/BookWatchBtn';
 function BookSection({ setVideoId, setModalIsOpen }) {
     return (
         <div className='App_Booksec'>
-            {/* <div className='App_Booksec-backgroundimg' /> */}
             <Image
                 className="App_Booksec-backgroundimg"
                 src={BookImg}
                 alt="img"
                 layout='fill'
             />
-            <div className='Booksec-wordSec'>
+            <div className='Booksec-wordSec' >
                 <div className='Booksec-wordSec-wrapper'>
                     <div className='Booksec-wordSec-title'>
                         FIND WORDS
@@ -29,13 +28,6 @@ function BookSection({ setVideoId, setModalIsOpen }) {
                     </div>
                     <div className='App_Booksec-divbutton'>
                         <div className='App_Booksec-divbutton-adj'>
-                            {/* <Button className="App_Booksec-button">WATCH VIDEO 
-                            <FontAwesomeIcon className='App_Booksec-button-arrow' icon={faChevronRight} />
-                            </Button> */}
-                            {/* <Button className="App_Booksec-button group" onClick={() => { setModalIsOpen(true); setVideoId("6A1JyZDR9Vo") }}>
-                                WATCH VIDEO
-                                <FontAwesomeIcon className="App_Booksec-button-arrow hidden group-hover:inline-block w-4 h-4 ml-2" icon={faChevronRight} />
-                            </Button> */}
                             <BookWatchBtn setVideoId={setVideoId} setModalIsOpen={setModalIsOpen}/>
                         </div>
                     </div>
@@ -44,9 +36,7 @@ function BookSection({ setVideoId, setModalIsOpen }) {
             <div className='App_Booksec-secdot'>
                 <div className='Booksec-secdot-bot'>
                     <div className='Booksec-secdot-bot-inner'>
-
                     </div>
-
                 </div>
             </div>
         </div>

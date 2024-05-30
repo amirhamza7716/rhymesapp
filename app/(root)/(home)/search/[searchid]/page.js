@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Navbar from '@/components/Navbar';
 import { Button } from '@/components/ui/button';
+import '../search.css';
 
 async function getSearched(id) {
     try {

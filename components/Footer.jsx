@@ -32,7 +32,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className='app__footer-bookstext-footer'>
-                    <div className='app__footer-bookstext-footer-text'>© 2019 BOOK OF RHYMES. ALL RIGHTS RESERVED.</div>
+                    <div className='app__footer-bookstext-footer-text'>© 2024 BOOK OF RHYMES. ALL RIGHTS RESERVED.</div>
                 </div>
             </div>
         </div>

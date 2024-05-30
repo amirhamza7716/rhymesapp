@@ -17,9 +17,15 @@ function SearchComp() {
     }
   }
 
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter') {
+        FINDDATA();
+    }
+};
+
     return (
         <React.Fragment>
-            <input className='header-search-input' placeholder='What Rhymes Width...' Value={Value} onChange={(e) => setValue(e.target.value)} />
+            <input className='header-search-input' placeholder='What Rhymes Width...' Value={Value} onChange={(e) => setValue(e.target.value)} onKeyDown={handleKeyDown} />
             <Button className="header-search-button" onClick={FINDDATA}>Search</Button>
         </React.Fragment>
     )

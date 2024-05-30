@@ -23,13 +23,16 @@ const BackgroundImage = () => {
     <div className="background-container">
       <div className="background-overlay"></div>
       {images.map((img, index) => (
+        // <div className="background-container_imgadj">
         <Image
           className={`background-image ${index === currentIndex ? 'fadeIn' : ''}`}
           key={index}
           src={img}
           alt={`Image ${index + 1}`}
-          layout='fill'
+          layout='cover'
+          objectFit='cover'
         />
+        // </div>
       ))}
     </div>
   );

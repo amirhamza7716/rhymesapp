@@ -13,11 +13,22 @@
     justify-content: center;
     align-items: center; */
 }
+@keyframes fadeDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 .app_infor-card-wrapper{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: fadeDown 2s ease-in-out;
 }
 .app_infor-card-tag{
     width: 100%;

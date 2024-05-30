@@ -2,21 +2,21 @@
     background-color: #282828;
     width: 100%;
     padding: 5px;
-    height: 100px;
+    height: 85px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .app__nav-wrapper {
-    width: 90%;
+    width: 86%;
     height: 100%;
     display: flex;
     flex-direction: row;
 }
 
 .app__nav-p1 {
-    flex: 0.6;
+    flex: 0.5;
     height: 100%;
     display: flex;
     align-items: center;
@@ -30,7 +30,7 @@
 }
 
 .app__nav-p2{
-    flex: 0.8;
+    flex: 1;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -77,7 +77,7 @@
     background-color: #ff4d00;
 }
 .app__nav-p3{
-    flex: 0.6;
+    flex: 0.5;
     height: 100%;
     display: flex;
     justify-content: end;
@@ -127,6 +127,14 @@
     border-width: 1px;
     border-color: #f07621 #f07621 #ff4d00 #ff4d00;
     border-radius: 50px;
+
+    font-family: Raleway, sans-serif;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+    white-space: pre;
 }
 .app__nav-p3-abtn-btn:hover{
     width: 100%;
@@ -143,6 +151,14 @@
     border-width: 1px;
     border-color: #f07621 #f07621 #ff4d00 #ff4d00;
     border-radius: 50px;
+
+    font-family: Raleway, sans-serif;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+    white-space: pre;
 }
 .app__nav-p1-img-nextBtn{
     display: none;
