@@ -39,7 +39,7 @@ function Layout({ children }) {
   useEffect(() => {
     // Simulate the loading of children after images are loaded
     if (children) {
-      const timer = setTimeout(() => setIsChildrenLoaded(true), 1000); // 500ms delay
+      const timer = setTimeout(() => setIsChildrenLoaded(true), 2000); // 500ms delay
       return () => clearTimeout(timer); // Cleanup the timer
     }
   }, [children]);
@@ -47,7 +47,7 @@ function Layout({ children }) {
   useEffect(() => {
     // Load other components after children are loaded
     if (isChildrenLoaded) {
-      const timer = setTimeout(() => setIsComponentsLoaded(true), 50); // 500ms delay
+      const timer = setTimeout(() => setIsComponentsLoaded(true), 500); // 500ms delay
       return () => clearTimeout(timer); // Cleanup the timer
     }
   }, [isChildrenLoaded]);
