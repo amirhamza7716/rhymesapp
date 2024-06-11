@@ -115,7 +115,7 @@ function Page({ params }) {
                                             <p className='serchcard-title-p'>
                                                 {searchData.slantRhymes.filter(item => item.wordSyllables === No).map((item, index) => (
                                                     <span className='serchcard-title-span' key={index}>
-                                                        {item.word},
+                                                        {item.word},&nbsp;
                                                     </span>
                                                 ))}
                                             </p>
